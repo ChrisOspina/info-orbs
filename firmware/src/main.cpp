@@ -102,7 +102,7 @@ void setup() {
     sm->selectScreen(2);
 
     TJpgDec.setJpgScale(1);
-    TJpgDec.drawJpg(0, 0, logo_start, logo_end - logo_start);
+    TJpgDec.drawJpg(0, 0, headshot_start, headshot_end - headshot_start);
 
     widgetSet = new WidgetSet(sm);
 

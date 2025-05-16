@@ -36,5 +36,8 @@ extern const byte cloudsB_start[] asm("_binary_images_WeatherWidget_dark_cloudsB
 extern const byte cloudsB_end[] asm("_binary_images_WeatherWidget_dark_cloudsB_jpg_end");
 extern const byte logo_start[] asm("_binary_images_logo_jpg_start");
 extern const byte logo_end[] asm("_binary_images_logo_jpg_end");
+extern const byte headshot_start [] asm("_binary_images_headshot_jpg_start");
+extern const byte headshot_end [] asm("_binary_images_headshot_jpg_end");
+
 
 #endif
