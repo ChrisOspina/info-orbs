@@ -6,6 +6,7 @@
 // These symbols are generated from the files specified in platformio.ini under 'board_build.embed_files'
 // See https://docs.platformio.org/en/latest/platforms/espressif32.html#embedding-binary-data for more info
 
+#pragma region weather
 extern const byte moonCloudW_start[] asm("_binary_images_WeatherWidget_light_moonCloudW_jpg_start");
 extern const byte moonCloudW_end[] asm("_binary_images_WeatherWidget_light_moonCloudW_jpg_end");
 extern const byte sunCloudsW_start[] asm("_binary_images_WeatherWidget_light_sunCloudsW_jpg_start");
@@ -33,11 +34,15 @@ extern const byte snowB_end[] asm("_binary_images_WeatherWidget_dark_snowB_jpg_e
 extern const byte rainB_start[] asm("_binary_images_WeatherWidget_dark_rainB_jpg_start");
 extern const byte rainB_end[] asm("_binary_images_WeatherWidget_dark_rainB_jpg_end");
 extern const byte cloudsB_start[] asm("_binary_images_WeatherWidget_dark_cloudsB_jpg_start");
+#pragma endregion 
+
+
+#pragma region misc
 extern const byte cloudsB_end[] asm("_binary_images_WeatherWidget_dark_cloudsB_jpg_end");
 extern const byte logo_start[] asm("_binary_images_logo_jpg_start");
 extern const byte logo_end[] asm("_binary_images_logo_jpg_end");
 extern const byte headshot_start [] asm("_binary_images_headshot_jpg_start");
 extern const byte headshot_end [] asm("_binary_images_headshot_jpg_end");
-
+#pragma endregion
 
 #endif
