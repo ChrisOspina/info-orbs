@@ -8,16 +8,16 @@ class FamilyWidget: public Widget{
     public:
         FamilyWidget(ScreenManager &manager);
         ~FamilyWidget() override;
-        void setup() override;
-        void update(bool force = false) override;
-        void draw(bool force = false) override;
-        void buttonPressed(uint8_t buttonId, ButtonState state) override;
-        String getName() override;
 
+        void setup() override;
+        void draw(bool force = false) override;
+        String getName() override;
+        bool isVisible() const;
+        void setName(const std::string& name);
+        void setVisibility(bool visible);
+        
     private:
         void displayImage(int displayIndex, const String &digit);
-        void changeMode();
-        int8_t m_mode;
 };
 
 

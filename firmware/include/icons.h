@@ -37,6 +37,20 @@ extern const byte cloudsB_start[] asm("_binary_images_WeatherWidget_dark_cloudsB
 #pragma endregion 
 
 
+#pragma region family
+extern const byte mom_start[] asm("_binary_images_mom_JPG_start");
+extern const byte mom_end[] asm("_binary_images_mom_JPG_end");
+extern const byte chris_start[] asm("_binary_images_chris_jpg_end");
+extern const byte chris_end[] asm("binary_images_chris_jpg_end");
+extern const byte lili_start[] asm("binary_images_lili_jpg_start");
+extern const byte lili_end[] asm("binary_images_lili_jpg_end");
+extern const byte johnny_start[] asm("binary_images_johnny_jpg_start");
+extern const byte johnny_end[] asm("binary_images_johnny_jpg_end");
+extern const byte mimi_start[] asm("binary_images_mimi_jpg_start");
+extern const byte mimi_end[] asm("binary_images_mimi_jpg_end");
+
+#pragma endregion
+
 #pragma region misc
 extern const byte cloudsB_end[] asm("_binary_images_WeatherWidget_dark_cloudsB_jpg_end");
 extern const byte logo_start[] asm("_binary_images_logo_jpg_start");
